@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+}
+
+#box1 {
+    width: 50%;
+    height: 100vh;
+    border: solid black 5px;
+    display: flex;
+}
+
+#heading {
+    margin: auto;
+}
+
+#box2 {
+    width: 50%;
+    height: 100vh;
+    border: solid black 5px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    
+}
+
+.card {
+    display: flex;
+    border: solid red 3px;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+
+}
